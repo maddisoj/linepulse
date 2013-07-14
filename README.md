@@ -35,10 +35,10 @@ something) and a pulse will be performed.
 
 You can set:
 
-    * `g:linepulse_start` to change the start colour.
-    * `g:linepulse_end` to change the ending colour.
-    * `g:linepulse_steps` to change how smoothly the interpolation is.
-    * `g:linepulse_time` to set how long it takes to perform a pulse.
+* `g:linepulse_start` to change the start colour.
+* `g:linepulse_end` to change the ending colour.
+* `g:linepulse_steps` to change how smoothly the interpolation is.
+* `g:linepulse_time` to set how long it takes to perform a pulse.
 
 More info can be found by doing `:help linepulse-options`
 
