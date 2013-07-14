@@ -1,0 +1,61 @@
+*linepulse.txt* Pulse your cursors line                                *linepulse* 
+
+==============================================================================
+CONTENTS                                                    *linepulse-contents*
+
+    1. Intro.............................|linepulse-intro|
+    2. Commands..........................|linepulse-commands|
+    3. Global Options....................|linepulse-options|
+    4. About.............................|linepulse-about|
+    5. License...........................|linepulse-license|
+
+==============================================================================
+1. Intro                                                       *linepulse-intro*
+
+LinePulse is a small but flexible plugin to make your cursor's line flash so
+that you can easily see where your cursor is after a jump.
+
+==============================================================================
+2. Commands                                                 *linepulse-commands*
+
+:DoPulse                                                              *:DoPulse*
+
+Initiates the line flash using the user's settings.
+
+==============================================================================
+3. Global Options                                            *linepulse-options*
+
+                                                             *'linepulse_start'*
+Default: "guibg"
+The starting colour of the pulse. This may be a ':hi' key or a hexidecimal
+string.
+
+                                                               *'linepulse_end'*
+Default: "#555"
+The ending colour of the pulse. This may be a ':hi' key or a hexidecimal
+string.
+
+                                                             *'linepulse_steps'*
+Default: 10
+The number of steps to go from the starting colour to the ending colour.
+
+                                                              *'linepulse_time'*
+Default: 300
+The number of milliseconds the pulse should take.
+
+==============================================================================
+4. About                                                       *linepulse-about*
+
+This plugin was made in an afternoon by:
+    James Maddison (github: Lerp)
+
+Find the latest version here:
+    http://github.com/lerp/linepulse
+
+==============================================================================
+5. License                                                   *linepulse-license*
+
+LinePulse is released under the wtfpl license.
+See http://www.wtfpl.net/txt/copying/ 
+
+  vim:tw=78:sw=4:ft=help:norl:
